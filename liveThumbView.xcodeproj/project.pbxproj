@@ -15,6 +15,7 @@
 		CD38FF561D031445007FF7F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD38FF541D031445007FF7F4 /* LaunchScreen.storyboard */; };
 		CD38FF611D031445007FF7F4 /* liveThumbViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38FF601D031445007FF7F4 /* liveThumbViewTests.m */; };
 		CD38FF6C1D031445007FF7F4 /* liveThumbViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38FF6B1D031445007FF7F4 /* liveThumbViewUITests.m */; };
+		CD38FF7B1D031460007FF7F4 /* liveThumbView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38FF7A1D031460007FF7F4 /* liveThumbView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		CD38FF671D031445007FF7F4 /* liveThumbViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = liveThumbViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD38FF6B1D031445007FF7F4 /* liveThumbViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = liveThumbViewUITests.m; sourceTree = "<group>"; };
 		CD38FF6D1D031445007FF7F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD38FF791D031460007FF7F4 /* liveThumbView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = liveThumbView.h; sourceTree = "<group>"; };
+		CD38FF7A1D031460007FF7F4 /* liveThumbView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = liveThumbView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				CD38FF4A1D031445007FF7F4 /* AppDelegate.m */,
 				CD38FF4C1D031445007FF7F4 /* ViewController.h */,
 				CD38FF4D1D031445007FF7F4 /* ViewController.m */,
+				CD38FF791D031460007FF7F4 /* liveThumbView.h */,
+				CD38FF7A1D031460007FF7F4 /* liveThumbView.m */,
 				CD38FF4F1D031445007FF7F4 /* Main.storyboard */,
 				CD38FF521D031445007FF7F4 /* Assets.xcassets */,
 				CD38FF541D031445007FF7F4 /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD38FF4E1D031445007FF7F4 /* ViewController.m in Sources */,
+				CD38FF7B1D031460007FF7F4 /* liveThumbView.m in Sources */,
 				CD38FF4B1D031445007FF7F4 /* AppDelegate.m in Sources */,
 				CD38FF481D031445007FF7F4 /* main.m in Sources */,
 			);
