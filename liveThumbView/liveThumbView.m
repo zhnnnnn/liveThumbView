@@ -19,7 +19,7 @@ static const NSInteger KxsideMaxValuesCount = 4;
 // y轴 keyframe动画的关键帧
 static const NSInteger KysideMaxValuesCount = 5;
 // 左右摆动的幅度
-static const NSInteger shakeRange = 4;
+static const NSInteger shakeRange = 5;
 // timer 随机每秒添加最多的count
 static const NSInteger cycleRandomCount = 4;
 // timer 的时间
